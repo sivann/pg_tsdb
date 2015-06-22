@@ -1,0 +1,4 @@
+CREATE FUNCTION add(int, int)
+RETURNS int
+as 'MODULE_PATHNAME' , 'add_ab' 
+LANGUAGE C STRICT;

@@ -1,0 +1,29 @@
+LINKS:
+======
+
+ORC File format as FDW for PG (cstrore)
+-----------------------------------------------------------------------
+https://github.com/gokhankici/orc_fdw
+http://www.citusdata.com/blog/76-postgresql-columnar-store-for-analytics
+
+ORC File format
+-----------------------------------------------------------------------
+http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.0.0.2/ds_Hive/orcfile.html
+
+
+Parquet columnar storage format
+-----------------------------------------------------------------------
+http://parquet.incubator.apache.org/
+http://parquet.incubator.apache.org/documentation/latest/
+
+
+insanely fast data interchange:
+----------------------------------------
+https://capnproto.org/index.html
+
+
+* Lazy compress:
+- Compress row (LOB) only on last TR of the day. 
+- offline compressor for days missing the last TR
+
+
