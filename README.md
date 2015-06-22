@@ -6,3 +6,5 @@ Uses:
 * LZ4 compression
 * lazy compress (compress only on last event(s))
 * msgpack
+
+This is by no means finished.
